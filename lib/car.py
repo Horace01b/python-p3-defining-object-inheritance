@@ -1,4 +1,5 @@
 from vehicle import Vehicle
 
 class Car(Vehicle):
-    pass
+    def go(self):  # overwrite the go() method
+        return "VRRROOOOOOOOOOOOOOOOOOOOOOOM!!!!!"
